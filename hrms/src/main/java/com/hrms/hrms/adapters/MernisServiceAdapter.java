@@ -12,7 +12,7 @@ public class MernisServiceAdapter implements CandidateUserCheckService {
 	@Override
 	public boolean checkRealPerson(Candidate candidate) {
 		
-		var result= true;
+		boolean result= true;
 		KPSPublicSoapProxy client = new KPSPublicSoapProxy();
 		
 		try {
