@@ -34,5 +34,4 @@ public class EmployersController {
 	public DataResult<List<Employer>> getAll(){
 		return this.employerService.getAll();
 	}
-
 }
